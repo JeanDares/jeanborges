@@ -1,6 +1,6 @@
 
 .navbar{
-    position: fixed;
+    position: absolute;
     font-size: 13px; 
     font-family: 'Lora', serif;
      background-color: rgb(240, 235, 235); 
@@ -17,6 +17,7 @@
     display: flex; 
     align-items: flex-end; 
     justify-content:center;
+    overflow-y: scroll;
 }
 
 
