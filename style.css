@@ -1,0 +1,39 @@
+
+.navbar{
+    position: fixed;
+    font-size: 13px; 
+    font-family: 'Lora', serif;
+     background-color: rgb(240, 235, 235); 
+     height: 05vh; display: flex; align-items: center; 
+     justify-content: center; width: 100%; 
+     -webkit-box-shadow: -1px 27px 15px -7px rgba(212,212,212,1);
+    -moz-box-shadow: -1px 27px 15px -7px rgba(212,212,212,1);
+    box-shadow: -1px 27px 15px -7px rgba(212,212,212,1);
+    
+}
+
+.esconde-mobile{
+    height: 100vh;  
+    display: flex; 
+    align-items: flex-end; 
+    justify-content:center;
+}
+
+
+@media screen and (max-width: 575px)  {
+    .navbar{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        row-gap: 55px;
+    }
+
+    .esconde-mobile{
+        background-color: blue;
+        display: none;
+        
+    }
+}
+
