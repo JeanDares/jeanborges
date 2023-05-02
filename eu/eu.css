@@ -9,8 +9,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    top: 0;
-    
+    top: 0;   
 
 }
 
@@ -54,6 +53,9 @@
     justify-content: center;
     flex-wrap: wrap;
     border-top: solid black 0.5px;
+    border-bottom: solid black 0.5px;
+    padding-bottom: 150px;
+
     padding-top: 70px ;
 }
 
@@ -95,10 +97,17 @@
 .conteudo4{
     margin-top: 300px;
     margin-bottom: 100px;
-    max-height: 300px;
-    display: block;
-    min-width: 500px;
-    max-width: 800px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.conteudo4 img {
+    width: 200px;
+    height: auto;
 }
 
 

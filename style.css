@@ -1,6 +1,6 @@
 
 .navbar{
-    position: absolute;
+    position: fixed;
     font-size: 13px; 
     font-family: 'Lora', serif;
      background-color: rgb(240, 235, 235); 
